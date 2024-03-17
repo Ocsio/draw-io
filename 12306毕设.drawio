@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T15:50:35.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="38cH68RCpyUhxGmqvBZW" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T15:50:47.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="MqL7g6LdWeXM7PlD2w8j" version="24.0.7" type="github">
   <diagram name="第 1 页" id="7npGd-YQYyWHJqzHlWsh">
     <mxGraphModel dx="2749" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1387,15 +1387,6 @@
         </mxCell>
         <mxCell id="cWHKNQey1YG8rOz3rkiW-158" value="重点旅客预约" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=0;fontSize=26;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-310.13" y="4693" width="210" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cWHKNQey1YG8rOz3rkiW-159" value="遗失物品查询" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-649.44" y="4805" width="43" height="225" as="geometry" />
-        </mxCell>
-        <mxCell id="cWHKNQey1YG8rOz3rkiW-160" value="最新招领信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-573.3800000000001" y="4805" width="43" height="225" as="geometry" />
-        </mxCell>
-        <mxCell id="cWHKNQey1YG8rOz3rkiW-164" value="重点旅客申请" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-301.0000000000001" y="4820" width="43" height="225" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
