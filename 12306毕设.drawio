@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T15:06:26.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="v9qYr5gWzg61hVqGaXAm" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T15:15:54.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="iYlIypTWAgCk-RXOn25G" version="24.0.7" type="github">
   <diagram name="第 1 页" id="7npGd-YQYyWHJqzHlWsh">
-    <mxGraphModel dx="3032" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2749" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1008,10 +1008,10 @@
         <mxCell id="cWHKNQey1YG8rOz3rkiW-11" value="系统黑名单管理" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=0;fontSize=26;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-567.5" y="2454" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cWHKNQey1YG8rOz3rkiW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-18" target="cWHKNQey1YG8rOz3rkiW-20">
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-18" target="cWHKNQey1YG8rOz3rkiW-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cWHKNQey1YG8rOz3rkiW-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-18" target="cWHKNQey1YG8rOz3rkiW-19">
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-18" target="cWHKNQey1YG8rOz3rkiW-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-817" y="2791" />
@@ -1019,7 +1019,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cWHKNQey1YG8rOz3rkiW-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-18" target="cWHKNQey1YG8rOz3rkiW-21">
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-18" target="cWHKNQey1YG8rOz3rkiW-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-817" y="2791" />
@@ -1169,8 +1169,42 @@
         <mxCell id="cWHKNQey1YG8rOz3rkiW-57" value="信息修改" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="cWHKNQey1YG8rOz3rkiW-72">
           <mxGeometry x="225.86999999999995" y="127" width="43" height="180" as="geometry" />
         </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-76" target="cWHKNQey1YG8rOz3rkiW-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-806" y="3425" />
+              <mxPoint x="-1057" y="3425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cWHKNQey1YG8rOz3rkiW-76" target="cWHKNQey1YG8rOz3rkiW-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-806" y="3425" />
+              <mxPoint x="-558" y="3425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cWHKNQey1YG8rOz3rkiW-76" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;车站管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;strokeWidth=1;fontSize=26;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-911" y="3294" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-77" value="列车管理" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=0;fontSize=26;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-663" y="3478" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-78" value="车站管理" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=0;fontSize=26;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1162" y="3478" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-81" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;车站信息录入&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1162" y="3629" width="43" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-82" value="车站状态管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1102.5" y="3629" width="43" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-86" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;列车信息录入&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="3626" width="43" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cWHKNQey1YG8rOz3rkiW-87" value="列车状态管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="3629" width="43" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
