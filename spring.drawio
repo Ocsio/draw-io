@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T03:19:50.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0NnB0aeTQbuxnP1sXHxW" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T09:17:03.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XA2JhgKZMLRbJerfeF5i" version="24.2.2" type="github">
   <diagram name="第 1 页" id="t5EFKjGEsA6wdtvT4ajn">
-    <mxGraphModel dx="1377" dy="573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2081" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,18 +88,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K9ITG3saKui1EiPYe7uI-9" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;初始化前的后处理&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="164.25" y="872" width="150" height="50" as="geometry" />
+          <mxGeometry x="164.25" y="870" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="K9ITG3saKui1EiPYe7uI-10" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;初始化后的后处理&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="164.25" y="968" width="150" height="50" as="geometry" />
+        <mxCell id="qCCeTMFwcqRYeo12MGRy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9ITG3saKui1EiPYe7uI-10" target="qCCeTMFwcqRYeo12MGRy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9ITG3saKui1EiPYe7uI-10" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;初始化&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="164.25" y="963" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="K9ITG3saKui1EiPYe7uI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K9ITG3saKui1EiPYe7uI-19" target="K9ITG3saKui1EiPYe7uI-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K9ITG3saKui1EiPYe7uI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K9ITG3saKui1EiPYe7uI-19" target="K9ITG3saKui1EiPYe7uI-10" edge="1">
+        <mxCell id="qCCeTMFwcqRYeo12MGRy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9ITG3saKui1EiPYe7uI-19" target="qCCeTMFwcqRYeo12MGRy-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-73.75" y="993" />
+              <mxPoint x="-74" y="1080" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -137,58 +140,58 @@
         <mxCell id="K9ITG3saKui1EiPYe7uI-31" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;返回 false&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="129.25" y="738" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K9ITG3saKui1EiPYe7uI-34" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;实例化前的后处理：postProcessBeforeInstantiation&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;实例化后的后处理：postProcessAfterInstantiation&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;属性的后处理：postProcessProperties&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;初始化前的后处理：postProcessBeforeInitialization&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;初始化后的后处理：postProcessAfterInitialization&lt;/font&gt;&lt;/b&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="394" y="872" width="525" height="145" as="geometry" />
+        <mxCell id="K9ITG3saKui1EiPYe7uI-34" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;实例化前的后处理：postProcessBeforeInstantiation&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;实例化后的后处理：postProcessAfterInstantiation&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;属性的后处理：&amp;nbsp; &amp;nbsp;postProcessProperties&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;初始化前的后处理：postProcessBeforeInitialization&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;初始化后的后处理：postProcessAfterInitialization&lt;/font&gt;&lt;/b&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="950" width="525" height="145" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J8kABM4ftK17kCS1gj3n-2" target="J8kABM4ftK17kCS1gj3n-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;doCreateBean()&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="-194.75" y="1090" width="150" height="50" as="geometry" />
+          <mxGeometry x="-192" y="1331" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J8kABM4ftK17kCS1gj3n-3" target="J8kABM4ftK17kCS1gj3n-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-3" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;将 Bean 封装为&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;font size=&quot;1&quot; face=&quot;Courier New&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;DisposableBeanAdapter 对象&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="-274.75" y="1200" width="310" height="60" as="geometry" />
+          <mxGeometry x="-272" y="1441" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-9" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;put 进 disposableBeans 的 map&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="-274.75" y="1310" width="310" height="60" as="geometry" />
+          <mxGeometry x="-272" y="1551" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J8kABM4ftK17kCS1gj3n-11" target="J8kABM4ftK17kCS1gj3n-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-11" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;destroySingletons()&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="1090" width="210" height="50" as="geometry" />
+          <mxGeometry x="292.75" y="1331" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="J8kABM4ftK17kCS1gj3n-12" target="J8kABM4ftK17kCS1gj3n-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-12" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;从 disposableBeans 中获取&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Courier New&amp;quot;; font-size: 16px;&quot;&gt;DisposableBeanAdapter 对象&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="239.25" y="1200" width="310" height="60" as="geometry" />
+          <mxGeometry x="242" y="1441" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="188.88" y="1310" width="410.75" height="210" as="geometry" />
+          <mxGeometry x="191.63" y="1551" width="410.75" height="210" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-16" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 16px;&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;调用&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: &amp;quot;Courier New&amp;quot;; font-size: 16px;&quot;&gt;DisposableBeanAdapter 的 destroy 方法&lt;/span&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="183.88" y="1320" width="410" height="30" as="geometry" />
+          <mxGeometry x="186.63" y="1561" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-17" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;依次进行下面的销毁回调&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="183.88" y="1350" width="200" height="30" as="geometry" />
+          <mxGeometry x="186.63" y="1591" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-18" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1. DestructionAwareBeanPostProcessor 回调&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="194.63" y="1390" width="410" height="30" as="geometry" />
+          <mxGeometry x="197.38" y="1631" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-19" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2. preDestroy 注解的回调&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="193.88" y="1420" width="240" height="30" as="geometry" />
+          <mxGeometry x="196.63" y="1661" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-20" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;3. Disposable 接口的实现类的回调&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="194.63" y="1450" width="300" height="30" as="geometry" />
+          <mxGeometry x="197.38" y="1691" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J8kABM4ftK17kCS1gj3n-21" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;4. destroy-method 属性定义的回调&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="193.88" y="1480" width="310" height="30" as="geometry" />
+          <mxGeometry x="196.63" y="1721" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NoKK9hEqyoqLjNFg1HOD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;shadow=1;strokeWidth=1.5;" edge="1" parent="1" source="NoKK9hEqyoqLjNFg1HOD-1" target="NoKK9hEqyoqLjNFg1HOD-2">
+        <mxCell id="NoKK9hEqyoqLjNFg1HOD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;shadow=1;strokeWidth=1.5;" parent="1" source="NoKK9hEqyoqLjNFg1HOD-1" target="NoKK9hEqyoqLjNFg1HOD-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-30" y="1770" />
@@ -196,13 +199,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NoKK9hEqyoqLjNFg1HOD-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;TestA&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1.5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="NoKK9hEqyoqLjNFg1HOD-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;TestA&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1.5;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-85" y="1830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NoKK9hEqyoqLjNFg1HOD-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;TestB&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="NoKK9hEqyoqLjNFg1HOD-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;TestB&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="260" y="1830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NoKK9hEqyoqLjNFg1HOD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;shadow=1;strokeWidth=1.5;" edge="1" parent="1">
+        <mxCell id="NoKK9hEqyoqLjNFg1HOD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;shadow=1;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="1890" as="sourcePoint" />
             <mxPoint x="-30" y="1890" as="targetPoint" />
@@ -212,11 +215,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NoKK9hEqyoqLjNFg1HOD-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;依赖&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NoKK9hEqyoqLjNFg1HOD-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;依赖&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="1734" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NoKK9hEqyoqLjNFg1HOD-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;依赖&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NoKK9hEqyoqLjNFg1HOD-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;依赖&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="1920" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qCCeTMFwcqRYeo12MGRy-1" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;初始化后的后处理&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="164.25" y="1055" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
