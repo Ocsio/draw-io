@@ -1,9 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T05:11:24.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.4" etag="kYhwaExCwqXjMdwxKNSg" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T05:31:12.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="BFwRHHBgv_9se1evm_9w" version="24.4.4" type="github">
   <diagram name="第 1 页" id="6lmhtBUsUAFKG5OuWDHW">
-    <mxGraphModel>
+    <mxGraphModel dx="2081" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BA14O4G8e5i7IqtphxG4-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="72" y="300" width="119.05" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-2" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="300" width="181" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-3" value="Hash 结构&lt;div&gt;snowflake_worker_id_key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;field: dataCenter&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;field: workId&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="305" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-4" value="应用 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="34.05" y="100" width="130.95" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-5" value="应用 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="218.05" y="100" width="130.95" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-6" value="应用 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="399.05" y="100" width="130.95" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=none;fillColor=#e1d5e7;width=11.666666666666668;endSize=5.408333333333334;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="205" as="sourcePoint" />
+            <mxPoint x="249" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-8" value="应用启动时调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="258.05" y="205" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-9" value="&lt;b&gt;&amp;nbsp;Lua 脚本&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270.08" y="235" width="85.95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-10" target="BA14O4G8e5i7IqtphxG4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-10" value="开始&lt;br style=&quot;font-size: 14px;&quot;&gt;执行 Lua 脚本" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="178" y="453" width="109.92" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-11" target="BA14O4G8e5i7IqtphxG4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-11" target="BA14O4G8e5i7IqtphxG4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-11" value="判断是否存在 Hash" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="117.94000000000001" y="552" width="230.04" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-12" target="BA14O4G8e5i7IqtphxG4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-12" target="BA14O4G8e5i7IqtphxG4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-32" value="等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="BA14O4G8e5i7IqtphxG4-29">
+          <mxGeometry x="0.1386" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-12" value="判断 dataCenterId、workerId == 31" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="118.94000000000001" y="672" width="228.04" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-13" target="BA14O4G8e5i7IqtphxG4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-13" target="BA14O4G8e5i7IqtphxG4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-33" value="不等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="BA14O4G8e5i7IqtphxG4-27">
+          <mxGeometry x="-0.0821" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-13" value="判断 workerId 是否 != 31" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="118.94" y="797" width="228.04" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-14" target="BA14O4G8e5i7IqtphxG4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-14" value="判断 dataCenterId&amp;nbsp;是否 != 31" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="118.94" y="922" width="228.04" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-15" target="BA14O4G8e5i7IqtphxG4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-15" value="创建 Hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-82" y="571" width="122" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-16" target="BA14O4G8e5i7IqtphxG4-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="1081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-16" value="dataCenterId、workerId 默认为 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-82" y="691" width="122" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-17" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="178" y="1060" width="109.92" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-18" target="BA14O4G8e5i7IqtphxG4-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="837" />
+              <mxPoint x="590" y="1081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-18" value="自增 workerId 并返回" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="432" y="816" width="122" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BA14O4G8e5i7IqtphxG4-19" target="BA14O4G8e5i7IqtphxG4-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="962" />
+              <mxPoint x="590" y="1081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-19" value="自增 dataCenterId&amp;nbsp;&lt;br&gt;设置 workerId 为 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="432" y="941" width="122" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-34" value="不等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-35" value="不等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="232.96" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="BA14O4G8e5i7IqtphxG4-36" value="等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="93.94000000000005" y="722" as="geometry">
+            <mxPoint x="138" y="174" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
